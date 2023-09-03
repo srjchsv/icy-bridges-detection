@@ -13,10 +13,13 @@ Task is to detect objects - icy bridges, on images coming from road cameras.
 
 Its a simple solution to try solve the problem and learn the CV technologies and object detection. 
 
-Here is what it was able to detect:
+## Here is what it was able to detect:
+### Labeled objects
 !["How it should be"](/runs/detect/val2/val_batch0_labels.jpg)
+### Whats model detected on validation
 !["What model detected"](/runs/detect/val2/val_batch0_pred.jpg)
-!["Confusion Martix"](/runs/detect/val2/confusion_matrix_normalized.jpg)
+### Confusion Matrix
+!["Confusion Martix"](/runs/detect/val2/confusion_matrix_normalized.png)
 
 ## useful resources:
 Train Yolov8 object detection on a custom dataset [https://www.youtube.com/watch?v=m9fH9OWn8YM](https://www.youtube.com/watch?v=m9fH9OWn8YM)
